@@ -1,0 +1,79 @@
+body {
+	overflow-x: hidden;
+}
+
+hr {
+	border: 1px solid white;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	text-align: center;
+	display: flex;
+}
+
+.logo span {
+	margin: auto;
+}
+
+.line-self {
+	border: 1px solid gray;
+}
+
+.nav-link:hover {
+	background-color: grey;
+}
+
+.display-4 {
+	font-weight: bold;
+}
+
+.card-body-icon {
+	position: absolute;
+	z-index: 0;
+	top: 25px;
+	right: 4px;
+	opacity: 0.4;
+	font-size: 40px;
+}
+
+.btn-cari {
+	margin-left: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	font-weight: 600;
+	border: 1px solid #333;
+}
+
+.btn-cari:hover {
+	background-color: white;
+	color: #333;
+	border: 1px solid #333;
+}
+
+.btn-home {
+	border: none;
+	font-weight: 600;
+}
+
+.btn-home:hover {
+	background-color: white;
+	color: #333;
+}
+
+.anak-master-data li a {
+	text-decoration: none;
+	color: white;
+}
+
+.anak-master-data li {
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.anak-master-data li:hover {
+	background-color: gray;
+}
