@@ -12,7 +12,7 @@
 			crossorigin="anonymous"
 		/>
 		<!-- My CSS -->
-		<link rel="stylesheet" href="style-data-karyawan.css" />
+		<link rel="stylesheet" href="style-data-penjualan.css" />
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css" />
 	</head>
@@ -38,7 +38,10 @@
 					<!-- Akhir Logo -->
 					<!-- Dashboard -->
 					<li class="nav-item">
-						<a class="nav-link active text-white" aria-current="page" href="#"
+						<a
+							class="nav-link active text-white"
+							aria-current="page"
+							href="dashboard.html"
 							><i class="me-2 fa-solid fa-light fa-gauge"></i> Dashboard</a
 						>
 						<hr />
@@ -52,13 +55,13 @@
 						<hr />
 						<ul class="anak-master-data">
 							<li>
-								<a href="data-penjualan.html"
+								<a href="data-penjualan.html" class="text-primary"
 									><i class="me-2 fa-solid fa-light fa-circle me-2"></i>Data
 									Penjualan</a
 								>
 							</li>
 							<li>
-								<a href="data-karyawan.html" class="text-primary"
+								<a href="data-karyawan.html"
 									><i class="me-2 fa-solid fa-light fa-circle me-2"></i>Data
 									Karyawan</a
 								>
@@ -98,7 +101,7 @@
 					<!-- Akhir Report -->
 					<!-- Identitas Aplikasi -->
 					<li class="nav-item">
-						<a class="nav-link text-white" href="identitas.html"
+						<a class="nav-link text-white" href="identitas-aplikasi.html"
 							><i class="me-2 fa-solid fa-light fa-id-badge"></i> Identitas
 							Aplikasi</a
 						>
@@ -110,7 +113,7 @@
 			<!-- Tabel Dashboard -->
 			<div class="col-md-10 p-5">
 				<!-- Title Dashboard -->
-				<h3 class="text-center">Data Karyawan</h3>
+				<h3 class="text-center">Data Penjualan Harian</h3>
 				<!-- Akhir Title Dashboard -->
 				<hr class="line-self" />
 				<div
@@ -139,90 +142,47 @@
 				>
 					<thead class="table-dark">
 						<tr>
-							<th scope="col">No. Karyawan</th>
-							<th scope="col">Nama Karyawan</th>
-							<th scope="col">Jenis Kelamin</th>
-							<th scope="col">Jabatan</th>
-							<th scope="col">Alamat</th>
-							<th scope="col">Status</th>
-							<th scope="col">Aksi</th>
+							<th scope="col">Tanggal</th>
+							<th scope="col">Waktu</th>
+							<th scope="col">No. Transaksi</th>
+							<th scope="col">Deskripsi</th>
+							<th scope="col">Nilai Penjualan</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row">111</th>
-							<td>Meira</td>
-							<td>P</td>
-							<td>Kasir</td>
-							<td>Buleleng</td>
-							<td>Aktif</td>
-							<td style="display: flex; justify-content: space-evenly">
-								<button type="button" class="btn btn-warning">Edit</button
-								><button type="button" class="btn btn-danger">Hapus</button>
-							</td>
+							<th scope="row">2021-03-03</th>
+							<td>12:00:21</td>
+							<td>001</td>
+							<td>Tidak Ada</td>
+							<td>2000000</td>
 						</tr>
 						<tr>
-							<th scope="row">222</th>
-							<td>Made Yanti</td>
-							<td>P</td>
-							<td>Kasir</td>
-							<td>Sidetape</td>
-							<td>Aktif</td>
-							<td style="display: flex; justify-content: space-evenly">
-								<button type="button" class="btn btn-warning">Edit</button
-								><button type="button" class="btn btn-danger">Hapus</button>
-							</td>
+							<th scope="row">2021-03-04</th>
+							<td>12:00:21</td>
+							<td>002</td>
+							<td>Tepat Waktu</td>
+							<td>3000000</td>
 						</tr>
 						<tr>
-							<th scope="row">333</th>
-							<td>Gede Nanta</td>
-							<td>L</td>
-							<td>Pelayan</td>
-							<td>Denpasar</td>
-							<td>Aktif</td>
-							<td style="display: flex; justify-content: space-evenly">
-								<button type="button" class="btn btn-warning">Edit</button
-								><button type="button" class="btn btn-danger">Hapus</button>
-							</td>
+							<th scope="row">2021-03-05</th>
+							<td>12:00:21</td>
+							<td>003</td>
+							<td>Pelayanan Bagus</td>
+							<td>3200000</td>
 						</tr>
 						<tr>
-							<th scope="row">112</th>
-							<td>Meira</td>
-							<td>P</td>
-							<td>Admin</td>
-							<td>Buleleng</td>
-							<td>Aktif</td>
-							<td style="display: flex; justify-content: space-evenly">
-								<button type="button" class="btn btn-warning">Edit</button
-								><button type="button" class="btn btn-danger">Hapus</button>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">223</th>
-							<td>Made Yanti</td>
-							<td>P</td>
-							<td>Kitchen</td>
-							<td>Sidetape</td>
-							<td>Aktif</td>
-							<td style="display: flex; justify-content: space-evenly">
-								<button type="button" class="btn btn-warning">Edit</button
-								><button type="button" class="btn btn-danger">Hapus</button>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">334</th>
-							<td>Gede Nanta</td>
-							<td>L</td>
-							<td>Supervisor</td>
-							<td>Denpasar</td>
-							<td>Aktif</td>
-							<td style="display: flex; justify-content: space-evenly">
-								<button type="button" class="btn btn-warning">Edit</button
-								><button type="button" class="btn btn-danger">Hapus</button>
-							</td>
+							<th scope="row">2021-03-06</th>
+							<td>12:00:21</td>
+							<td>004</td>
+							<td>Tidak Ada</td>
+							<td>2500000</td>
 						</tr>
 					</tbody>
 				</table>
+				<div class="text-end" style="margin: 0 0 16px 0">
+					<a class="btn btn-success" href="#" role="button">Next</a>
+				</div>
 			</div>
 			<!-- Akhir Tabel Dashboard -->
 		</div>

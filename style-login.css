@@ -1,3 +1,4 @@
+/* container */
 .container {
 	width: 30%;
 	margin-top: 6%;
@@ -6,6 +7,14 @@
 	border-radius: 8px;
 }
 
+/* label */
+.label-username,
+.label-password {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* button */
 button {
 	width: 40%;
 	height: 45px;
@@ -15,10 +24,4 @@ button {
 .button-spacing {
 	display: flex;
 	justify-content: space-evenly;
-}
-
-.label-username,
-.label-password {
-	margin-bottom: 10px;
-	margin-top: 10px;
 }
